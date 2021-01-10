@@ -1,0 +1,19 @@
+<div>
+
+  <h1>The Table</h1>
+  <hr>
+
+  <table>
+    <tr>
+      <th *ngFor="let column of header">
+        {{column}}
+      </th>
+    </tr>
+    <tr *ngFor="let row of rows">
+      <td *ngFor="let column of header2">
+        {{row[column]}}
+      </td>
+    </tr>
+  </table>
+
+</div>

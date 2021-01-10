@@ -1,0 +1,53 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    position: fixed;
+    width: 100%;
+    font-family: 'Grandstander';
+    margin-bottom: 20px;
+    user-select: none;
+    -moz-user-select:none;
+}
+
+.header a{
+    display: flex;
+}
+
+.header .logo .img{
+    max-width: 120px;
+    padding-right: 10px;
+    border-radius: 20px;
+}
+
+.header .logo{
+    display: flex;
+    align-items: center;
+    color: white;  
+}
+
+.header .logo i{
+    padding-right: 10px;
+}
+
+.nav{
+    display: flex;
+}
+
+.nav li{
+    padding: 10px;
+}
+
+.nav li a{
+    display: block;
+    padding: 10px;
+    color: white;
+    transition: background-color .5s;
+}
+
+.nav li a:hover{
+    display: block;
+    padding: 10px;
+    color: #ffb9b9;
+}
